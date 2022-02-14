@@ -49,8 +49,8 @@ public class Functions {
 	// Function For Power
 	public static int power(int base, int exponent) {
 		int power = 1;
-		for(int i=1;i<=exponent;i++) {
-			power = power * base;
+		for(int i=1;i<=exponent;i++) {    // Exponent Times run hoga 
+			power = power * base;      // 1*base; power*base; and so on base will not change
 		}
 		return power;
 	}
@@ -127,12 +127,12 @@ public class Functions {
 
 
 		// Program For Power
-		int a = sc.nextInt();
+		/*int a = sc.nextInt();
 		System.out.println(a);
 		int b = sc.nextInt();
 		System.out.println(b);
 		int ans = power(a, b);
-		System.out.println("Power is: " + ans);
+		System.out.println("Power is: " + ans);*/
 
 
 	}
