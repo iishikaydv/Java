@@ -37,6 +37,13 @@ public class Functions {
 		int c = x + y;
 		return c;
 	}
+
+
+	// Function for Substraction
+	public static int sub(int x, int y) {
+		int c = y - x;
+		return c;
+	}
 	
 
 	public static void main(String[] args) {
@@ -96,6 +103,16 @@ public class Functions {
 		System.out.println(b);
 		int add = sum(a, b);
 		System.out.println("Addition of numbers are: " + add);*/
+
+
+
+		// Function for Sub
+		int a = sc.nextInt();
+		System.out.println(a);
+		int b = sc.nextInt();
+		System.out.println(b);
+		int sb = sub(a, b);
+		System.out.println("Substraction of numbers are: " + sb);
 
 
 	}
