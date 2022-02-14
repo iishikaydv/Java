@@ -54,6 +54,20 @@ public class Functions {
 		}
 		return power;
 	}
+
+
+	// Calculate frequency of digit d in number n
+	public static int getDigitFrequency(int n, int d) {
+		int count = 0;
+		while(n!=0) {     // We want loop to work until n is not equal to zero
+			int rem = n % 10;
+			if(d==rem) {
+				count++;
+			}
+			n = n/10;    // We want one digit less than n
+		}
+		return count;
+	}
 	
 
 	public static void main(String[] args) {
@@ -134,6 +148,14 @@ public class Functions {
 		int ans = power(a, b);
 		System.out.println("Power is: " + ans);*/
 
+
+
+		// Calculate frequency of digit d in number n
+		int n = sc.nextInt();
+		int d = sc.nextInt();
+		int f = getDigitFrequency(n, d);
+		System.out.println(f);
+		
 
 	}
 }
