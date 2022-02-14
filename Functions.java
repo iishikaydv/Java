@@ -44,6 +44,16 @@ public class Functions {
 		int c = y - x;
 		return c;
 	}
+
+
+	// Function For Power
+	public static int power(int base, int exponent) {
+		int power = 1;
+		for(int i=1;i<=exponent;i++) {
+			power = power * base;
+		}
+		return power;
+	}
 	
 
 	public static void main(String[] args) {
@@ -107,12 +117,22 @@ public class Functions {
 
 
 		// Function for Sub
-		int a = sc.nextInt();
+		/*int a = sc.nextInt();
 		System.out.println(a);
 		int b = sc.nextInt();
 		System.out.println(b);
 		int sb = sub(a, b);
-		System.out.println("Substraction of numbers are: " + sb);
+		System.out.println("Substraction of numbers are: " + sb);*/
+
+
+
+		// Program For Power
+		int a = sc.nextInt();
+		System.out.println(a);
+		int b = sc.nextInt();
+		System.out.println(b);
+		int ans = power(a, b);
+		System.out.println("Power is: " + ans);
 
 
 	}
