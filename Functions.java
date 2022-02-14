@@ -1,18 +1,21 @@
 import java.util.*;
 
 public class Functions {
+	
     // Function for f(x) = 3*(x*x) + 2;
 	public static int func(int x) {
 		int y = 3*x*x + 2;
 		return y;
 	}
 	
+
 	// Function for f(x) = x*x + y*y;
 	public static int fn(int x, int y) {
 		int z = x*x + y*y;
 		return z;
 	}
 	
+
 	// return your name
 	public static void name() {
 		System.out.println("Ishika Yadav");
@@ -27,6 +30,13 @@ public class Functions {
 		}
 		return fac;
 	}
+
+
+	// Function for Sum
+	public static int sum(int x, int y) {
+		int c = x + y;
+		return c;
+	}
 	
 
 	public static void main(String[] args) {
@@ -34,9 +44,9 @@ public class Functions {
 		
 		
 		//
-		System.out.println(func(3));   // Return of Function for f(x) = 3*(x*x) + 2;
+		/*System.out.println(func(3));   // Return of Function for f(x) = 3*(x*x) + 2;
 		System.out.println(fn(3, 4));    // Return of Function for f(x) = x*x + y*y;
-		name();      // return your name
+		name();*/      // return your name
 
 		
 		
@@ -77,5 +87,16 @@ public class Functions {
 		int ncr = nf / (narf*rf);
 		System.out.println("Total ncr count is: " + ncr);*/
 		
+
+
+		// Function For Sum
+		/*int a = sc.nextInt();
+		System.out.println(a);
+		int b = sc.nextInt();
+		System.out.println(b);
+		int add = sum(a, b);
+		System.out.println("Addition of numbers are: " + add);*/
+
+
 	}
 }
