@@ -62,9 +62,9 @@ public class Functions {
 		while(n!=0) {     // We want loop to work until n is not equal to zero
 			int rem = n % 10;
 			if(d==rem) {
-				count++;
+				count++;    // Count 1 se increase ho jayega
 			}
-			n = n/10;    // We want one digit less than n
+			n = n/10;    // We want one digit less than n  ->  //quotient -> without this this will be endless loop
 		}
 		return count;
 	}
